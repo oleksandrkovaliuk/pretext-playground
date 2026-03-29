@@ -1,0 +1,19 @@
+{
+  "name": "image-flow-engine",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "bun run --hot serve.ts",
+    "build": "bun run build.ts",
+    "preview": "bun run build && bun run --hot serve.ts --production"
+  },
+  "dependencies": {
+    "@chenglou/pretext": "^0.0.3",
+    "gifuct-js": "^2.1.2"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5"
+  }
+}
